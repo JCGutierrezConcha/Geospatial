@@ -1,7 +1,7 @@
 # Geospatial
 En este repositorio se encuentran trabajos vinculados a geolocalización/georreferenciación utilizando librerías de Python, tales como Geopandas y Folium.
 
-En cada carpeta se encuentra el jupyter notebook con el código desarrollado y los archivos necesarios para su ejecución.
+En la carpeta de cada trabajo se encuentra el Jupyter Notebook con el código desarrollado y los archivos necesarios para su ejecución.
 
 Actualmente este repositorio contiene ejercicios sobre:
 
