@@ -5,4 +5,4 @@ En cada carpeta se encuentra el jupyter notebook con el código desarrollado y l
 
 Actualmente este repositorio contiene ejercicios sobre:
 
-- Geolocalización de Farmacias, en la Región Metropolitana de Chile, utilizando Geopandas [[Jupyter Notebook]](https://github.com/JCGutierrezConcha/Geospatial/blob/master/Farmacias-RM-Geopandas.ipynb)
+- Geolocalización de Farmacias, en la Región Metropolitana de Chile, utilizando Geopandas [[Jupyter Notebook]](https://github.com/JCGutierrezConcha/Geospatial/blob/master/Farmacias-Santiago-Chile-Geopandas/Farmacias-RM-Geopandas.ipynb)
