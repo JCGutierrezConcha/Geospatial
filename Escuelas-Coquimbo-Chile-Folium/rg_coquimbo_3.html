@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_495597a750e04daeb79fb31bfc53c8aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_495597a750e04daeb79fb31bfc53c8aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_495597a750e04daeb79fb31bfc53c8aa = L.map(
+                "map_495597a750e04daeb79fb31bfc53c8aa",
+                {
+                    center: [-29.9627, -71.252],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1a90df1b17c149848952870c7b5a2b13 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+            var marker_cefaf2b71f074ad2b1a975be856e7989 = L.marker(
+                [-29.96055031, -71.34012604],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_72ce264030d54d03a36295ec46018dde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c734ce46a95748459c007aee982ae1c3 = $(`<div id="html_c734ce46a95748459c007aee982ae1c3" style="width: 100.0%; height: 100.0%;">INSTITUTO SUPERIOR DE COMERCIO DE COQUIMBO</div>`)[0];
+            popup_72ce264030d54d03a36295ec46018dde.setContent(html_c734ce46a95748459c007aee982ae1c3);
+        
+
+        marker_cefaf2b71f074ad2b1a975be856e7989.bindPopup(popup_72ce264030d54d03a36295ec46018dde)
+        ;
+
+        
+    
+    
+            var marker_0f0488cb4b5e4131bcdf44ab090aabe3 = L.marker(
+                [-29.96525192, -71.34722137],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_63fd29e11b514671a5097dffa0104e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_871d0fc158584c31985ed03799c70546 = $(`<div id="html_871d0fc158584c31985ed03799c70546" style="width: 100.0%; height: 100.0%;">LICEO INDUSTRIAL JOSE TOMAS DE URMENETA</div>`)[0];
+            popup_63fd29e11b514671a5097dffa0104e22.setContent(html_871d0fc158584c31985ed03799c70546);
+        
+
+        marker_0f0488cb4b5e4131bcdf44ab090aabe3.bindPopup(popup_63fd29e11b514671a5097dffa0104e22)
+        ;
+
+        
+    
+    
+            var marker_345964a2218b400bb6a376dae079d4ec = L.marker(
+                [-29.95303345, -71.33675385],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_affdcb05b0a14596976f3654271abc2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42ef8f10e53b4fc99f58714e1030acfe = $(`<div id="html_42ef8f10e53b4fc99f58714e1030acfe" style="width: 100.0%; height: 100.0%;">LICEO DIEGO PORTALES</div>`)[0];
+            popup_affdcb05b0a14596976f3654271abc2c.setContent(html_42ef8f10e53b4fc99f58714e1030acfe);
+        
+
+        marker_345964a2218b400bb6a376dae079d4ec.bindPopup(popup_affdcb05b0a14596976f3654271abc2c)
+        ;
+
+        
+    
+    
+            var marker_5abc699d0c3e4915b42500f4ad9e5075 = L.marker(
+                [-29.97170448, -71.32545471],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_8f5cf91913cb4b48842071e27f79b2ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d92da082af4dbe93fe6fe1821893bb = $(`<div id="html_19d92da082af4dbe93fe6fe1821893bb" style="width: 100.0%; height: 100.0%;">ESCUELA GUILLERMO CERECEDA</div>`)[0];
+            popup_8f5cf91913cb4b48842071e27f79b2ae.setContent(html_19d92da082af4dbe93fe6fe1821893bb);
+        
+
+        marker_5abc699d0c3e4915b42500f4ad9e5075.bindPopup(popup_8f5cf91913cb4b48842071e27f79b2ae)
+        ;
+
+        
+    
+    
+            var marker_e23d870fe91b4d8795def10e19caa7f7 = L.marker(
+                [-29.96126938, -71.33829498],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_b0fb075892e54f499d7bbc3bb3f137be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a359485524f41b4b78458a64856d7ed = $(`<div id="html_0a359485524f41b4b78458a64856d7ed" style="width: 100.0%; height: 100.0%;">COLEGIO DE ARTES CLAUDIO ARRAU</div>`)[0];
+            popup_b0fb075892e54f499d7bbc3bb3f137be.setContent(html_0a359485524f41b4b78458a64856d7ed);
+        
+
+        marker_e23d870fe91b4d8795def10e19caa7f7.bindPopup(popup_b0fb075892e54f499d7bbc3bb3f137be)
+        ;
+
+        
+    
+    
+            var marker_77c03f7cfe0649f395ad90a1a777ba16 = L.marker(
+                [-29.95573425, -71.33995819],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_3cebc4cafed14bc390c3b10033397561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_182de40a48be488dbf77181e4c3fcb82 = $(`<div id="html_182de40a48be488dbf77181e4c3fcb82" style="width: 100.0%; height: 100.0%;">ESCUELA PRESIDENTE ANIBAL PINTO</div>`)[0];
+            popup_3cebc4cafed14bc390c3b10033397561.setContent(html_182de40a48be488dbf77181e4c3fcb82);
+        
+
+        marker_77c03f7cfe0649f395ad90a1a777ba16.bindPopup(popup_3cebc4cafed14bc390c3b10033397561)
+        ;
+
+        
+    
+    
+            var marker_2a394a05cd134a5982f538e3eaa31c12 = L.marker(
+                [-29.95436478, -71.33626556],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_ad13d3ffaf7246b695aac370e90366e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3a9ce03e6340af9c81983a6b01e6b9 = $(`<div id="html_2b3a9ce03e6340af9c81983a6b01e6b9" style="width: 100.0%; height: 100.0%;">ESCUELA COQUIMBO</div>`)[0];
+            popup_ad13d3ffaf7246b695aac370e90366e3.setContent(html_2b3a9ce03e6340af9c81983a6b01e6b9);
+        
+
+        marker_2a394a05cd134a5982f538e3eaa31c12.bindPopup(popup_ad13d3ffaf7246b695aac370e90366e3)
+        ;
+
+        
+    
+    
+            var marker_b4e5b2a8fa23479e82c4e6c35b3f45ac = L.marker(
+                [-29.96734238, -71.3391037],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_bbcf015b859047e0ac2500570e3be39a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c7813b37940457fbb51aef6d60055ee = $(`<div id="html_8c7813b37940457fbb51aef6d60055ee" style="width: 100.0%; height: 100.0%;">ESCUELA CARDENAL JOSE MARIA CARO</div>`)[0];
+            popup_bbcf015b859047e0ac2500570e3be39a.setContent(html_8c7813b37940457fbb51aef6d60055ee);
+        
+
+        marker_b4e5b2a8fa23479e82c4e6c35b3f45ac.bindPopup(popup_bbcf015b859047e0ac2500570e3be39a)
+        ;
+
+        
+    
+    
+            var marker_334cd663872b495aad222a8cd0addd9e = L.marker(
+                [-29.95366096, -71.34325409],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_8201fde5c355443cbc611adcecc2e800 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_656c6052d14e4dc3bfc4f822c213a9ed = $(`<div id="html_656c6052d14e4dc3bfc4f822c213a9ed" style="width: 100.0%; height: 100.0%;">COLEGIO SANTA CECILIA</div>`)[0];
+            popup_8201fde5c355443cbc611adcecc2e800.setContent(html_656c6052d14e4dc3bfc4f822c213a9ed);
+        
+
+        marker_334cd663872b495aad222a8cd0addd9e.bindPopup(popup_8201fde5c355443cbc611adcecc2e800)
+        ;
+
+        
+    
+    
+            var marker_d376237349024d998e2dc832ccec611f = L.marker(
+                [-29.9620018, -71.2542038],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_d58cf56accca44ecb64679e2a5fda173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e660d7cbe304281a37b864038968f0a = $(`<div id="html_7e660d7cbe304281a37b864038968f0a" style="width: 100.0%; height: 100.0%;">ESCUELA SANTO TOMAS DE AQUINO</div>`)[0];
+            popup_d58cf56accca44ecb64679e2a5fda173.setContent(html_7e660d7cbe304281a37b864038968f0a);
+        
+
+        marker_d376237349024d998e2dc832ccec611f.bindPopup(popup_d58cf56accca44ecb64679e2a5fda173)
+        ;
+
+        
+    
+    
+            var marker_39219d17d197401a9547491e3581819c = L.marker(
+                [-29.95718384, -71.26178741],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_4d07bc12fb5b4f05b147498c78eb6c77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54a4f178d304a56a42ae21944829c94 = $(`<div id="html_e54a4f178d304a56a42ae21944829c94" style="width: 100.0%; height: 100.0%;">ESCUELA JOSE ALFARO ALFARO</div>`)[0];
+            popup_4d07bc12fb5b4f05b147498c78eb6c77.setContent(html_e54a4f178d304a56a42ae21944829c94);
+        
+
+        marker_39219d17d197401a9547491e3581819c.bindPopup(popup_4d07bc12fb5b4f05b147498c78eb6c77)
+        ;
+
+        
+    
+    
+            var marker_fe215c60d348494f849c6898052dd078 = L.marker(
+                [-29.96727943, -71.32762146],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_f2d62fa17da946678b131a049436a344 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d519222599344a26988b759ef3080706 = $(`<div id="html_d519222599344a26988b759ef3080706" style="width: 100.0%; height: 100.0%;">ESCUELA BASICA MARIO MUNOZ SILVA</div>`)[0];
+            popup_f2d62fa17da946678b131a049436a344.setContent(html_d519222599344a26988b759ef3080706);
+        
+
+        marker_fe215c60d348494f849c6898052dd078.bindPopup(popup_f2d62fa17da946678b131a049436a344)
+        ;
+
+        
+    
+    
+            var marker_239e791a9d9544289968694b62c3a3c9 = L.marker(
+                [-29.96714592, -71.32640076],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_ad9958629cbf47e8a9f12b5e89780ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_160840d7415247d8989f36c23057238c = $(`<div id="html_160840d7415247d8989f36c23057238c" style="width: 100.0%; height: 100.0%;">CENTRO LABORAL JEAN PIAGET</div>`)[0];
+            popup_ad9958629cbf47e8a9f12b5e89780ae0.setContent(html_160840d7415247d8989f36c23057238c);
+        
+
+        marker_239e791a9d9544289968694b62c3a3c9.bindPopup(popup_ad9958629cbf47e8a9f12b5e89780ae0)
+        ;
+
+        
+    
+    
+            var marker_3579bdfd38dd4979b10aa8672ed51b78 = L.marker(
+                [-29.96768951, -71.32416534],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_6b6fed56921340d985a85aeb830531d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ee652186f64c63a45513b1053a937b = $(`<div id="html_e3ee652186f64c63a45513b1053a937b" style="width: 100.0%; height: 100.0%;">ESCUELA DIFERENCIAL JUAN SANDOVAL C.</div>`)[0];
+            popup_6b6fed56921340d985a85aeb830531d5.setContent(html_e3ee652186f64c63a45513b1053a937b);
+        
+
+        marker_3579bdfd38dd4979b10aa8672ed51b78.bindPopup(popup_6b6fed56921340d985a85aeb830531d5)
+        ;
+
+        
+    
+    
+            var marker_50ff770af7154743ac3e1f1fc2f6e82e = L.marker(
+                [-29.96139336, -71.34879303],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_e30f8ab7ea1445c99d6a2a048fb3dcc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad18858f752449e2862ca0cba3715080 = $(`<div id="html_ad18858f752449e2862ca0cba3715080" style="width: 100.0%; height: 100.0%;">ESCUELA TOMASA OLIVARES CAAMANO</div>`)[0];
+            popup_e30f8ab7ea1445c99d6a2a048fb3dcc8.setContent(html_ad18858f752449e2862ca0cba3715080);
+        
+
+        marker_50ff770af7154743ac3e1f1fc2f6e82e.bindPopup(popup_e30f8ab7ea1445c99d6a2a048fb3dcc8)
+        ;
+
+        
+    
+    
+            var marker_7ecd37755a2b404d8694cfb9bd08f278 = L.marker(
+                [-30.26317215, -71.48988342],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_c15ab68febe2485baac8044c8f087551 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b573f4c3149042caad33167a21b0e121 = $(`<div id="html_b573f4c3149042caad33167a21b0e121" style="width: 100.0%; height: 100.0%;">ESCUELA BASICA DAVID LEON TAPIA</div>`)[0];
+            popup_c15ab68febe2485baac8044c8f087551.setContent(html_b573f4c3149042caad33167a21b0e121);
+        
+
+        marker_7ecd37755a2b404d8694cfb9bd08f278.bindPopup(popup_c15ab68febe2485baac8044c8f087551)
+        ;
+
+        
+    
+    
+            var marker_2aca00c4b26b43f6ae0538208bdeee28 = L.marker(
+                [-29.95157814, -71.29620361],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_640ccf9ae93c4445a863e601692af2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_debb1cf000ef45a595b4a0e7d6b3a9d3 = $(`<div id="html_debb1cf000ef45a595b4a0e7d6b3a9d3" style="width: 100.0%; height: 100.0%;">ESCUELA DE PENUELAS</div>`)[0];
+            popup_640ccf9ae93c4445a863e601692af2c3.setContent(html_debb1cf000ef45a595b4a0e7d6b3a9d3);
+        
+
+        marker_2aca00c4b26b43f6ae0538208bdeee28.bindPopup(popup_640ccf9ae93c4445a863e601692af2c3)
+        ;
+
+        
+    
+    
+            var marker_878b4a4127c142acbb38d3cdf347f147 = L.marker(
+                [-30.05068207, -71.25240326],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_1759a62ded4d4bab87be75f36ec6261a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbdb76c5ac86413ba8d97f14139e9539 = $(`<div id="html_bbdb76c5ac86413ba8d97f14139e9539" style="width: 100.0%; height: 100.0%;">COLEGIO PABLO NERUDA</div>`)[0];
+            popup_1759a62ded4d4bab87be75f36ec6261a.setContent(html_bbdb76c5ac86413ba8d97f14139e9539);
+        
+
+        marker_878b4a4127c142acbb38d3cdf347f147.bindPopup(popup_1759a62ded4d4bab87be75f36ec6261a)
+        ;
+
+        
+    
+    
+            var marker_0563554cf2314f1483646be070a2903a = L.marker(
+                [-29.98613167, -71.36120605],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_85c6921524d3434f81e5d5834b337a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f57b27028a57467b88b7ecff891d28dc = $(`<div id="html_f57b27028a57467b88b7ecff891d28dc" style="width: 100.0%; height: 100.0%;">COLEGIO LA HERRADURA</div>`)[0];
+            popup_85c6921524d3434f81e5d5834b337a67.setContent(html_f57b27028a57467b88b7ecff891d28dc);
+        
+
+        marker_0563554cf2314f1483646be070a2903a.bindPopup(popup_85c6921524d3434f81e5d5834b337a67)
+        ;
+
+        
+    
+    
+            var marker_65b22abfc9914ef6adba3e1253f2c5de = L.marker(
+                [-30.01071167, -71.2567749],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_166c957d44ea455bb37452d0c3a2ae45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8780c0a448a4a95a8732376fba7daa4 = $(`<div id="html_c8780c0a448a4a95a8732376fba7daa4" style="width: 100.0%; height: 100.0%;">ESCUELA SAN RAFAEL</div>`)[0];
+            popup_166c957d44ea455bb37452d0c3a2ae45.setContent(html_c8780c0a448a4a95a8732376fba7daa4);
+        
+
+        marker_65b22abfc9914ef6adba3e1253f2c5de.bindPopup(popup_166c957d44ea455bb37452d0c3a2ae45)
+        ;
+
+        
+    
+    
+            var marker_82ac395e42bb4e94a112de159f7c3790 = L.marker(
+                [-30.19948578, -71.42973328],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_1a04b65b7060423296228b08cc4186c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b10e85f946c4327b355e4aa65866150 = $(`<div id="html_6b10e85f946c4327b355e4aa65866150" style="width: 100.0%; height: 100.0%;">ESCUELA BASICA MANUEL DE SALAS</div>`)[0];
+            popup_1a04b65b7060423296228b08cc4186c4.setContent(html_6b10e85f946c4327b355e4aa65866150);
+        
+
+        marker_82ac395e42bb4e94a112de159f7c3790.bindPopup(popup_1a04b65b7060423296228b08cc4186c4)
+        ;
+
+        
+    
+    
+            var marker_a945b3989c884c5d8dae2728d66be27f = L.marker(
+                [-29.978672, -71.221722],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_15742fccbc874c43bac1f2accaef2165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15341bd008fc48aba7fd17bbc90e97ba = $(`<div id="html_15341bd008fc48aba7fd17bbc90e97ba" style="width: 100.0%; height: 100.0%;">ESCUELA DE HUACHALALUME</div>`)[0];
+            popup_15742fccbc874c43bac1f2accaef2165.setContent(html_15341bd008fc48aba7fd17bbc90e97ba);
+        
+
+        marker_a945b3989c884c5d8dae2728d66be27f.bindPopup(popup_15742fccbc874c43bac1f2accaef2165)
+        ;
+
+        
+    
+    
+            var marker_be4010d3be9d4e23b05aab01ee51fec6 = L.marker(
+                [-30.06486511, -71.36621094],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_579e9043e9044e2c8f1d105ead9dde1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6459a793a51c47588e633a4b75233b82 = $(`<div id="html_6459a793a51c47588e633a4b75233b82" style="width: 100.0%; height: 100.0%;">ESCUELA DE TOTORALILLO</div>`)[0];
+            popup_579e9043e9044e2c8f1d105ead9dde1c.setContent(html_6459a793a51c47588e633a4b75233b82);
+        
+
+        marker_be4010d3be9d4e23b05aab01ee51fec6.bindPopup(popup_579e9043e9044e2c8f1d105ead9dde1c)
+        ;
+
+        
+    
+    
+            var marker_34056e79a19a4daabc7c2439b9b18dc5 = L.marker(
+                [-29.97380829, -71.29909515],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_5ddbf198a7b94057b05d8c119d10ddac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_453ba4568eeb4b369c0c221973c90dff = $(`<div id="html_453ba4568eeb4b369c0c221973c90dff" style="width: 100.0%; height: 100.0%;">ESCUELA LUCILA GODOY ALCAYAGA</div>`)[0];
+            popup_5ddbf198a7b94057b05d8c119d10ddac.setContent(html_453ba4568eeb4b369c0c221973c90dff);
+        
+
+        marker_34056e79a19a4daabc7c2439b9b18dc5.bindPopup(popup_5ddbf198a7b94057b05d8c119d10ddac)
+        ;
+
+        
+    
+    
+            var marker_de1be057ddb04b02851328899c284995 = L.marker(
+                [-30.43628883, -71.37903595],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_38f41091d56049618c39f983021edb8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ff3ddc2c9b74feca15dd55349f7f5a6 = $(`<div id="html_9ff3ddc2c9b74feca15dd55349f7f5a6" style="width: 100.0%; height: 100.0%;">ESCUELA DE CAMARONES</div>`)[0];
+            popup_38f41091d56049618c39f983021edb8a.setContent(html_9ff3ddc2c9b74feca15dd55349f7f5a6);
+        
+
+        marker_de1be057ddb04b02851328899c284995.bindPopup(popup_38f41091d56049618c39f983021edb8a)
+        ;
+
+        
+    
+    
+            var marker_ec543720c48d4b8a9371b6dc816500e9 = L.marker(
+                [-30.21329308, -71.25787354],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_7f769dad8ec04552aa4575c6ee1e00dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e1c275505fe4ae5a1e28f79f40d68e0 = $(`<div id="html_3e1c275505fe4ae5a1e28f79f40d68e0" style="width: 100.0%; height: 100.0%;">ESCUELA DE LAS BARRANCAS</div>`)[0];
+            popup_7f769dad8ec04552aa4575c6ee1e00dc.setContent(html_3e1c275505fe4ae5a1e28f79f40d68e0);
+        
+
+        marker_ec543720c48d4b8a9371b6dc816500e9.bindPopup(popup_7f769dad8ec04552aa4575c6ee1e00dc)
+        ;
+
+        
+    
+    
+            var marker_cab388aa84a74ae181ba8ad47679be98 = L.marker(
+                [-30.28147888, -71.25431824],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_2b79f9d71502475fba6e8ccb2969868a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_480b711d85444fb49c083c4e8cf4cd9c = $(`<div id="html_480b711d85444fb49c083c4e8cf4cd9c" style="width: 100.0%; height: 100.0%;">ESCUELA DE LAS CARDAS</div>`)[0];
+            popup_2b79f9d71502475fba6e8ccb2969868a.setContent(html_480b711d85444fb49c083c4e8cf4cd9c);
+        
+
+        marker_cab388aa84a74ae181ba8ad47679be98.bindPopup(popup_2b79f9d71502475fba6e8ccb2969868a)
+        ;
+
+        
+    
+    
+            var marker_546a0ade7d00452999c80f92dee48a77 = L.marker(
+                [-30.13885498, -71.21582794],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_16e99d3d0a604543b3f83dfaaf0381f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddf1dd0c7a3c47e4a02bed991fcdc039 = $(`<div id="html_ddf1dd0c7a3c47e4a02bed991fcdc039" style="width: 100.0%; height: 100.0%;">ESCUELA DE EL PENON</div>`)[0];
+            popup_16e99d3d0a604543b3f83dfaaf0381f8.setContent(html_ddf1dd0c7a3c47e4a02bed991fcdc039);
+        
+
+        marker_546a0ade7d00452999c80f92dee48a77.bindPopup(popup_16e99d3d0a604543b3f83dfaaf0381f8)
+        ;
+
+        
+    
+    
+            var marker_190148913a2b4699a68274b8f42890c2 = L.marker(
+                [-30.19732285, -71.22369385],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_d61dc9e9cc304b8fb57ddd2068ac8de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6c16c3336154e9d8a49c4634e2f8500 = $(`<div id="html_a6c16c3336154e9d8a49c4634e2f8500" style="width: 100.0%; height: 100.0%;">ESCUELA DE TAMBILLOS</div>`)[0];
+            popup_d61dc9e9cc304b8fb57ddd2068ac8de3.setContent(html_a6c16c3336154e9d8a49c4634e2f8500);
+        
+
+        marker_190148913a2b4699a68274b8f42890c2.bindPopup(popup_d61dc9e9cc304b8fb57ddd2068ac8de3)
+        ;
+
+        
+    
+    
+            var marker_c81250b07c6d4b1a8698ddab5d47454e = L.marker(
+                [-30.29287338, -71.60926056],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_00296df04e3349e6b48f7caf3b57cb70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fdc69cfd5b0434287fa4c0990f7708b = $(`<div id="html_8fdc69cfd5b0434287fa4c0990f7708b" style="width: 100.0%; height: 100.0%;">ESCUELA DE PUERTO ALDEA</div>`)[0];
+            popup_00296df04e3349e6b48f7caf3b57cb70.setContent(html_8fdc69cfd5b0434287fa4c0990f7708b);
+        
+
+        marker_c81250b07c6d4b1a8698ddab5d47454e.bindPopup(popup_00296df04e3349e6b48f7caf3b57cb70)
+        ;
+
+        
+    
+    
+            var marker_8122b40cf0a34dc9b73e403b736ac445 = L.marker(
+                [-30.34646416, -71.55861664],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_bc4747cbe52444eea2b1f8ea70e6139d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58c4184f485e42b1bb5a0170d2ff2ece = $(`<div id="html_58c4184f485e42b1bb5a0170d2ff2ece" style="width: 100.0%; height: 100.0%;">ESCUELA DE EL TANGUE</div>`)[0];
+            popup_bc4747cbe52444eea2b1f8ea70e6139d.setContent(html_58c4184f485e42b1bb5a0170d2ff2ece);
+        
+
+        marker_8122b40cf0a34dc9b73e403b736ac445.bindPopup(popup_bc4747cbe52444eea2b1f8ea70e6139d)
+        ;
+
+        
+    
+    
+            var marker_652603169c914c5fb46882d4f7a2f1f9 = L.marker(
+                [-29.963871, -71.25428772],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_e9b4ef06a4a34aa28167dd2cd6242830 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b3c4c6bb38947d2807c8d55f54e507c = $(`<div id="html_3b3c4c6bb38947d2807c8d55f54e507c" style="width: 100.0%; height: 100.0%;">LICEO FERNANDO BINVIGNAT MARIN</div>`)[0];
+            popup_e9b4ef06a4a34aa28167dd2cd6242830.setContent(html_3b3c4c6bb38947d2807c8d55f54e507c);
+        
+
+        marker_652603169c914c5fb46882d4f7a2f1f9.bindPopup(popup_e9b4ef06a4a34aa28167dd2cd6242830)
+        ;
+
+        
+    
+    
+            var marker_dcd04344b66e4e849e4dbe1faffe7bee = L.marker(
+                [-30.26264, -71.49340057],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_25520e6b56a341629c438060daf40889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f858c1b619c843d8879c158e30993a5f = $(`<div id="html_f858c1b619c843d8879c158e30993a5f" style="width: 100.0%; height: 100.0%;">LICEO CARMEN AURORA RODRIGUEZ HENRIQUEZ</div>`)[0];
+            popup_25520e6b56a341629c438060daf40889.setContent(html_f858c1b619c843d8879c158e30993a5f);
+        
+
+        marker_dcd04344b66e4e849e4dbe1faffe7bee.bindPopup(popup_25520e6b56a341629c438060daf40889)
+        ;
+
+        
+    
+    
+            var marker_1e3ce7fdc747428eb7f349c139148632 = L.marker(
+                [-29.95594597, -71.24723816],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_0a7e80b8be8b4a62bfef42f0f62bb447 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15963b313701474b8809857eae2c5c59 = $(`<div id="html_15963b313701474b8809857eae2c5c59" style="width: 100.0%; height: 100.0%;">ESCUELA BASICA REPUBLICA DE ITALIA</div>`)[0];
+            popup_0a7e80b8be8b4a62bfef42f0f62bb447.setContent(html_15963b313701474b8809857eae2c5c59);
+        
+
+        marker_1e3ce7fdc747428eb7f349c139148632.bindPopup(popup_0a7e80b8be8b4a62bfef42f0f62bb447)
+        ;
+
+        
+    
+    
+            var marker_4b3b64e7eccf4469b832406c8d1a01e4 = L.marker(
+                [-29.97063255, -71.32544708],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_d9bfd13b535943dca09e6bcd5060abac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b62e9c41e56b4e1eb57765df0e0fcfe6 = $(`<div id="html_b62e9c41e56b4e1eb57765df0e0fcfe6" style="width: 100.0%; height: 100.0%;">INSTITUTO DE ADM. Y COMERCIO ESTADO DE ISRAEL</div>`)[0];
+            popup_d9bfd13b535943dca09e6bcd5060abac.setContent(html_b62e9c41e56b4e1eb57765df0e0fcfe6);
+        
+
+        marker_4b3b64e7eccf4469b832406c8d1a01e4.bindPopup(popup_d9bfd13b535943dca09e6bcd5060abac)
+        ;
+
+        
+    
+    
+            var marker_c91485dc17aa4394bb1db0e1483a2541 = L.marker(
+                [-29.98612404, -71.33231354],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_f4334b804eed4728b6afddfe920f4c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82e14ec77ff04deeac4ea469a1c3e792 = $(`<div id="html_82e14ec77ff04deeac4ea469a1c3e792" style="width: 100.0%; height: 100.0%;">ESCUELA REPUBLICA DE GRECIA</div>`)[0];
+            popup_f4334b804eed4728b6afddfe920f4c09.setContent(html_82e14ec77ff04deeac4ea469a1c3e792);
+        
+
+        marker_c91485dc17aa4394bb1db0e1483a2541.bindPopup(popup_f4334b804eed4728b6afddfe920f4c09)
+        ;
+
+        
+    
+    
+            var marker_f89e9c45560a493f8970a0b05cd089dd = L.marker(
+                [-29.95135117, -71.34955597],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_73379df0f1aa4f45867296974faeaa8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b49d9900d6f41b1bc5e188ccbdade1b = $(`<div id="html_2b49d9900d6f41b1bc5e188ccbdade1b" style="width: 100.0%; height: 100.0%;">ESCUELA PADRE ALBERTO HURTADO CRUCHAGA</div>`)[0];
+            popup_73379df0f1aa4f45867296974faeaa8a.setContent(html_2b49d9900d6f41b1bc5e188ccbdade1b);
+        
+
+        marker_f89e9c45560a493f8970a0b05cd089dd.bindPopup(popup_73379df0f1aa4f45867296974faeaa8a)
+        ;
+
+        
+    
+    
+            var marker_a96839083aae4f7d858cb99eff16fe03 = L.marker(
+                [-29.99037552, -71.33159637],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_e2bd221db338484184cb44d6bf0e4aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed1b4d6f29bc4126819de3ed7f740d06 = $(`<div id="html_ed1b4d6f29bc4126819de3ed7f740d06" style="width: 100.0%; height: 100.0%;">LIC.DE CIENC.Y HUM.SAN JOSEMARIA ESCRIVA</div>`)[0];
+            popup_e2bd221db338484184cb44d6bf0e4aca.setContent(html_ed1b4d6f29bc4126819de3ed7f740d06);
+        
+
+        marker_a96839083aae4f7d858cb99eff16fe03.bindPopup(popup_e2bd221db338484184cb44d6bf0e4aca)
+        ;
+
+        
+    
+    
+            var marker_5dd2abedbd1342d58cc56643c5dd4ab5 = L.marker(
+                [-29.93689537, -71.33986664],
+                {}
+            ).addTo(map_495597a750e04daeb79fb31bfc53c8aa);
+        
+    
+        var popup_c70ac6d048d0455380aaeb342e9b7a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d97ba6ed5fc41049cd466e7f85a848d = $(`<div id="html_4d97ba6ed5fc41049cd466e7f85a848d" style="width: 100.0%; height: 100.0%;">ESCUELA JUAN PABLO II</div>`)[0];
+            popup_c70ac6d048d0455380aaeb342e9b7a30.setContent(html_4d97ba6ed5fc41049cd466e7f85a848d);
+        
+
+        marker_5dd2abedbd1342d58cc56643c5dd4ab5.bindPopup(popup_c70ac6d048d0455380aaeb342e9b7a30)
+        ;
+
+        
+    
+</script>
