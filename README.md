@@ -6,4 +6,4 @@ En la carpeta de cada trabajo se encuentra el Jupyter Notebook con el código de
 Actualmente este repositorio contiene trabajos sobre:
 
 - Geolocalización de Farmacias, en la Región Metropolitana de Chile, utilizando Geopandas [[Jupyter Notebook]](https://github.com/JCGutierrezConcha/Geospatial/blob/master/Farmacias-Santiago-Chile-Geopandas/Farmacias-RM-Geopandas.ipynb)
-- Localización de Escuelas en las comunas de Coquimbo y La Serena de Chile, utilizando Folium [Jupyter Notebook](https://github.com/JCGutierrezConcha/Geospatial/blob/master/Escuelas-Coquimbo-Chile-Folium/Escuelas-Coquimbo-La-Serena-Folium.ipynb)
+- Localización de Escuelas en las comunas de Coquimbo y La Serena de Chile, utilizando Folium [[Jupyter Notebook]](https://github.com/JCGutierrezConcha/Geospatial/blob/master/Escuelas-Coquimbo-Chile-Folium/Escuelas-Coquimbo-La-Serena-Folium.ipynb)
